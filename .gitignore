@@ -1,0 +1,15 @@
+# Ambiente Virtual
+venv/
+env/
+.venv/
+
+# Caches do Jupyter e Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Datasets pesados (ignora todos os CSVs dentro de Data)
+Data/**/*.csv
+Data/*.csv
+*.csv
+*.pcap
